@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Empresa.Aplicacion.Application.Interface/1.0.0": {
+        "dependencies": {
+          "Empresa.Aplicacion.Application.DTO": "1.0.0",
+          "Empresa.Aplicacion.Transversal.Common": "1.0.0"
+        },
+        "runtime": {
+          "Empresa.Aplicacion.Application.Interface.dll": {}
+        }
+      },
+      "Empresa.Aplicacion.Application.DTO/1.0.0": {
+        "runtime": {
+          "Empresa.Aplicacion.Application.DTO.dll": {}
+        }
+      },
+      "Empresa.Aplicacion.Transversal.Common/1.0.0": {
+        "runtime": {
+          "Empresa.Aplicacion.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Empresa.Aplicacion.Application.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Empresa.Aplicacion.Application.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Empresa.Aplicacion.Transversal.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

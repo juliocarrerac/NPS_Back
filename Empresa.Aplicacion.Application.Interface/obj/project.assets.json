@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Empresa.Aplicacion.Application.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Empresa.Aplicacion.Application.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Empresa.Aplicacion.Application.DTO.dll": {}
+        }
+      },
+      "Empresa.Aplicacion.Transversal.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Empresa.Aplicacion.Transversal.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Empresa.Aplicacion.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Empresa.Aplicacion.Application.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Empresa.Aplicacion.Application.DTO/Empresa.Aplicacion.Application.DTO.csproj",
+      "msbuildProject": "../Empresa.Aplicacion.Application.DTO/Empresa.Aplicacion.Application.DTO.csproj"
+    },
+    "Empresa.Aplicacion.Transversal.Common/1.0.0": {
+      "type": "project",
+      "path": "../Empresa.Aplicacion.Transversal.Common/Empresa.Aplicacion.Transversal.Common.csproj",
+      "msbuildProject": "../Empresa.Aplicacion.Transversal.Common/Empresa.Aplicacion.Transversal.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Empresa.Aplicacion.Application.DTO >= 1.0.0",
+      "Empresa.Aplicacion.Transversal.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\julio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\julio\\Desktop\\slnNPS\\Empresa.Aplicacion.Application.Interface\\Empresa.Aplicacion.Application.Interface.csproj",
+      "projectName": "Empresa.Aplicacion.Application.Interface",
+      "projectPath": "C:\\Users\\julio\\Desktop\\slnNPS\\Empresa.Aplicacion.Application.Interface\\Empresa.Aplicacion.Application.Interface.csproj",
+      "packagesPath": "C:\\Users\\julio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\julio\\Desktop\\slnNPS\\Empresa.Aplicacion.Application.Interface\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\julio\\Desktop\\slnNPS\\Empresa.Aplicacion.Application.DTO\\Empresa.Aplicacion.Application.DTO.csproj": {
+              "projectPath": "C:\\Users\\julio\\Desktop\\slnNPS\\Empresa.Aplicacion.Application.DTO\\Empresa.Aplicacion.Application.DTO.csproj"
+            },
+            "C:\\Users\\julio\\Desktop\\slnNPS\\Empresa.Aplicacion.Transversal.Common\\Empresa.Aplicacion.Transversal.Common.csproj": {
+              "projectPath": "C:\\Users\\julio\\Desktop\\slnNPS\\Empresa.Aplicacion.Transversal.Common\\Empresa.Aplicacion.Transversal.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

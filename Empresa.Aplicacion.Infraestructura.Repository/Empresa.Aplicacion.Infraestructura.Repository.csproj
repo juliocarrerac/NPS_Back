@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Empresa.Aplicacion.Infraestructura.Data\Empresa.Aplicacion.Infraestructura.Data.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Infraestructura.Interface\Empresa.Aplicacion.Infraestructura.Interface.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Transversal.Common\Empresa.Aplicacion.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

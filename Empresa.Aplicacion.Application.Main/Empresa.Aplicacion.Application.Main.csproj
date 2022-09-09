@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Empresa.Aplicacion.Application.DTO\Empresa.Aplicacion.Application.DTO.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Application.Interface\Empresa.Aplicacion.Application.Interface.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Domain.Entity\Empresa.Aplicacion.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Domain.Interface\Empresa.Aplicacion.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Transversal.Common\Empresa.Aplicacion.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

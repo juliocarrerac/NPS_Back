@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ct2gdzb9J+yqXy9qnUuJJyefLx/tEhc3fUqUq+hRhtel2cABSQ11Osm8pIJKoYzrMSibxYZ+3y2Qry4ml8fT5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julio\\Desktop\\slnNPS\\Empresa.Aplicacion.Domain.Interface\\Empresa.Aplicacion.Domain.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julio\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

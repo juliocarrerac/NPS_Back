@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Empresa.Aplicacion.Application.DTO\Empresa.Aplicacion.Application.DTO.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Application.Interface\Empresa.Aplicacion.Application.Interface.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Application.Main\Empresa.Aplicacion.Application.Main.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Domain.Core\Empresa.Aplicacion.Domain.Core.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Infraestructura.Repository\Empresa.Aplicacion.Infraestructura.Repository.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Transversal.Common\Empresa.Aplicacion.Transversal.Common.csproj" />
+    <ProjectReference Include="..\Empresa.Aplicacion.Transversal.Mapper\Empresa.Aplicacion.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

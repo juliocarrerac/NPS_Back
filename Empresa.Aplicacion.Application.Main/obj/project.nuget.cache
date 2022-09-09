@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NEgLW99vP1yIudr0D+a8hKlQgMOw+oC4yQ/3DqPmamI1sG6yt64zwTa9wDH8/PFK2bCqIXqz+wVAy49kV/aKxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julio\\Desktop\\slnNPS\\Empresa.Aplicacion.Application.Main\\Empresa.Aplicacion.Application.Main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julio\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\julio\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\julio\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

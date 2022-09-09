@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MiT4M9DJzNlQJy4smQV3FugutmH8HAlIa4pg/bP3EbhBBvJCz2pPEqspFTMmIBNe9RsqY0H5ySlnEzBaf5KfCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julio\\Desktop\\slnNPS\\Empresa.Aplicacion.Transversal.Mapper\\Empresa.Aplicacion.Transversal.Mapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julio\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\julio\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\julio\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
